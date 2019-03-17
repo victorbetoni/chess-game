@@ -3,11 +3,11 @@ package application;
 import chess.ChessPiece;
 
 public class UI {
-	public static void printBoard(ChessPiece[][] pieces) {
-		for(int i=0; i<pieces.length; i++) {
+	public static void printBoard(ChessPiece[][] chessPiece) {
+		for(int i=0; i<chessPiece.length; i++) {
 			System.out.print((8-i) + " ");
-			for(int j=0; j<pieces.length; j++) {
-				printPiece(pieces[i][j]);
+			for(int j=0; j<chessPiece.length; j++) {
+				printPiece(chessPiece[i][j]);
 			}
 			System.out.println();
 		}
