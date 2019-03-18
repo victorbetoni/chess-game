@@ -1,7 +1,7 @@
 package chess;
 
 import boardgame.Position;
-import chess.exception.ChessException;
+import exceptions.ChessException;
 
 public class ChessPosition {
 	private char column;
